@@ -133,7 +133,8 @@
     padding-left:5px;
 }
 .main-body .our-work{
-
+    margin:50px 0;
+    /* border-bottom: 1px solid #b2b2b2; */
 }
 .our-work .wrapper{
     padding: 30px;
