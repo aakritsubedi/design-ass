@@ -1,0 +1,487 @@
+.layout{
+    width: 100%;
+    /* box-sizing: border-box; */
+}
+.wrapper{
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #f8f8f8;
+    width: 100%;
+}
+.header .black-box{
+    height: 1.5vh;
+    background-color: #000000;
+}
+.header .logo-search{
+    width: 100%;
+    border-bottom: 1px solid #b2b2b2;
+}
+.logo-search .logo{
+    width: 100%;
+    text-align: center;
+}
+.logo .img-wrapper{
+    width: 100%;
+}
+
+.logo .tagline{
+    width: 100%;
+}
+
+.logo-search .search{
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.header .navigation{
+    text-align: center;
+}
+.navigation .left-nav{
+    list-style: none;
+    text-align: center;
+    display: none;
+}
+
+.navigation .social-feed{
+    list-style: none;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    text-align: center;
+    display: none;
+}
+/* Banner */
+.banner-wrapper{
+    position: relative;
+}
+.banner-wrapper .banner{
+    /* width: 100vw; */
+    height: 50vh;
+    background-color: #b2b2b2;
+
+}
+.banner-wrapper .caption{
+    background-color: #000000;
+    opacity: 0.8;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.caption p{
+    line-height: 45px;
+    text-align: center;
+}
+.banner-wrapper ul li{
+    float: left;
+    width: auto;
+    text-align: center;
+}
+/* Main Body */
+.main-body{
+    background-color: #f8f8f8;
+    width: 100%;
+}
+.main-body{
+    padding: 40px 0px 50px 0px;
+}
+.body-title{
+    text-align: center;
+}
+.body-title h1{
+    font-size: 20px;
+    line-height: 1.7;
+    
+}
+.body-title p{
+    color: #999999;
+    font-size: 18px;
+}
+.main-body .people-info{
+    margin-top: 10px;
+}
+.people-info .individual{
+    width: 100%;
+    /* float: left; */
+}
+.individual .img-wrapper-individual{
+    width: 100%;
+    height: 225px;
+}
+.img-wrapper-individual img{
+    width: 100%;
+    height: 100%;   
+}
+.people-info .individual-info{
+    text-align: center; 
+}
+.individual-info p{
+    line-height: 2;
+    color: #999999;
+}
+.individual-info a{
+    text-decoration: none;
+    color: #d54346;
+    line-height: 2;
+}
+.individual-info a::after{
+    content: ">>";
+    color: #d54346;
+    padding-left:5px;
+}
+.main-body .our-work{
+
+}
+.our-work .wrapper{
+    padding: 30px;
+}
+.our-work .work-title{
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+}
+.work-title h3{
+    color: #999999;
+}
+.work-title h2{
+    color: #d54346;
+}
+.work-title h2::after{
+    content: ">>";
+    color: #d54346;
+    padding-left:5px;
+}
+.work .project-info{
+    width: 100%;
+}
+.project-info .project-img-wrapper{
+    height: 170px;
+    width: 100%;
+}
+.project-img-wrapper img{
+    width: 100%;
+    height: 100%;
+}
+.project-info .project-info-wrapper{
+    text-align: center;
+
+}
+.project-info-wrapper h3{
+    line-height: 3;
+}
+.project-info-wrapper p{
+    line-height: 1.5;
+    margin-top: 0px;
+    color: #999999;
+    text-align: justify;
+}
+.project-info-wrapper button{
+    line-height: 2.2;
+    background-color: #d54346;
+    color: white;
+    padding:0 10px;
+    margin:20px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 5px;
+}
+/* Footer */
+.footer{
+    background-color: #d54346;   
+}
+.footer .main-footer{
+    line-height: 30px;
+    color: #ffffff;
+    padding:15px 0;
+    border-top: 1px solid #db6063;
+
+}
+.main-footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+.main-footer .company-info{
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.footer .imp-footer{
+    display: none;
+}
+
+
+@media screen and (min-width:768px){
+    .navigation .bars{
+        display: none;
+    }
+    .navigation .left-nav{
+        list-style: none;
+        text-align: center;
+        display: block;
+        float: left;
+        margin-top:5px;
+    }
+    
+    .navigation .social-feed{
+        list-style: none;
+        width: 27%;
+        margin: 10px auto;
+        margin-bottom: 10px;
+        text-align: center;
+        display: block;
+        /* float: right; */
+    }   
+    .people-info .people-left{
+        float: left;
+        width: 100%;
+    }
+    .people-left .individual{
+        width: 50%;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .people-info .people-right{
+        float: right;
+        width: 100%;
+    }
+    .people-info .people-right{
+        float: left;
+        width: 100%;
+    }
+    .people-right .individual{
+        width: 50%;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .work .project-info{
+        width: 49%;
+        float: left;
+        box-sizing: border-box;
+        padding:10px;
+    }
+
+    .footer .imp-footer{
+        display: block;
+    }
+    .imp-footer .newsletter{
+        display: none;
+    }
+    .imp-footer .about-link{
+        width: 100%;
+    }
+    .about-link .about{
+        width: 50%;
+        float: left;
+        padding:10px;
+        box-sizing: border-box;
+        color: white;
+    }
+    .about h3{
+        line-height: 40px;
+    }
+    .about a{
+        color: black;
+        text-decoration: none;
+    }
+    .about  .about-us{
+       
+    }
+    .about-link .link{
+        width: 45%;
+        float: right;
+        padding:10px;
+        margin-left: 30px;
+        box-sizing: border-box;
+        color: white;
+        
+    }
+    .link h3{
+        line-height: 40px;
+    }
+    .link ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .link ul li{
+        line-height: 30px;
+        list-style: none;
+        border-bottom: 1px solid #d85255;
+    }
+    .link ul li::before{
+        content: ">>";
+        padding-right: 10px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .wrapper {
+        width: 60em;
+        margin: 0 auto;
+    }
+    .header .logo-search{
+        padding-top:40px;
+        padding-bottom: 10px;
+    }
+    .header .logo{
+        width: auto;
+        float: left;
+        text-align: left;
+        line-height: 75px;
+    }
+    .logo .img-wrapper{
+        width: auto;
+        float: left;
+        padding-right: 30px;
+    }
+    .logo .tagline{
+        width: auto;
+        float: right;
+    }
+    .header .search{
+        width: 40%;
+        float: right;
+    }
+    .header .navigation{
+        width: 100%;
+    }
+    .navigation .social-feed{
+        float: right;
+        width: auto;
+        line-height: 90px;
+        margin-top: -55px;
+    }
+    .people-info .people-left{
+        float: left;
+        width: 50%;
+    }
+    .people-left .individual{
+        width: 50%;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .people-info .people-right{
+        float: left;
+        width: 50%;
+    }
+    .people-right .individual{
+        width: 50%;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .our-work .work-title{
+        width: 40%;
+        float: left;
+        /* background-color: #000000; */
+    }
+    .break::after{
+        /* content:"\n"; */
+    }
+    .our-work .work{
+        width: 60%;
+        float: right;
+        /* background-color: #d85255; */
+    }
+
+    .body-title h1{
+        font-size: 38px;
+    }
+
+    .footer .imp-footer{
+        display: block;
+    }
+    .imp-footer p{
+        line-height: 23px;
+    }
+    .imp-footer .about-link{
+        width: 70%;
+        float:left;
+    }
+    .about-link .about{
+        width: 50%;
+        float: left;
+        padding:10px;
+        box-sizing: border-box;
+        color: white;
+    }
+    .about h3{
+        line-height: 40px;
+    }
+    .about a{
+        color: black;
+        text-decoration: none;
+    }
+    .about  .about-us{
+       
+    }
+    .about-link .link{
+        width: 45%;
+        float: right;
+        padding:10px;
+        margin-left: 30px;
+        box-sizing: border-box;
+        color: white;
+        
+    }
+    .link h3{
+        line-height: 40px;
+    }
+    
+    .imp-footer .newsletter{
+        display: block;
+        width: 30%;
+        float: right;
+        box-sizing: border-box;
+        color: white;
+        
+    }
+    .newsletter h3{
+        line-height: 50px;  
+    }
+    .newsletter .input-wrapper{
+        padding:5px 0;
+        background: #ffffff;
+        margin:10px 0;
+    }
+    .input-wrapper input{
+        border: none;
+    }
+    .submit-btn{
+        padding:8px;
+        background-color: #871f21;
+        border:none;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .footer .main-footer{
+        line-height: 30px;
+        color: #ffffff;
+        padding:15px 0;
+        border-top: 1px solid #db6063;
+        width: 100%;
+    }
+    .main-footer .copyright{
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+    .main-footer .company-info{
+        display: block;
+        float: right;
+        width: 30%;
+    }
+
+    .banner-wrapper .banner{
+        height: 500px;
+        background-color: #b2b2b2;
+    
+    }
+}

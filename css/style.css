@@ -1,0 +1,138 @@
+body{
+    font-family: "Georgia";
+}
+
+.img-wrapper img{
+    margin:5px 0;
+}
+.tagline p{
+    font-size: 10px;
+    color:#b2b2b2;
+    /* border-left:1px solid #b2b2b2; */
+   
+    width: 44%;
+    margin: 0 auto;
+}
+.tagline p::before{
+    content: "|";
+    line-height: 30px;
+    color: #b2b2b2;
+    font-size: 22px;
+    padding-right: 5px;
+}
+.search input{
+    width: 60%;
+    height: 30px;
+    margin:5px 0;
+}
+.search button{
+    height: 34px;
+    width: 20%;
+    background-color: #d54346;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-left: -5px;
+}
+.left-nav li{
+    line-height: 25px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.left-nav li a{
+    color: #000000;
+    text-decoration: none;
+}
+.left-nav li a span{
+    color: #999999;
+    display: block;
+}
+
+.social-feed li{
+    float: left;
+    width: auto;
+    padding:0 8px;
+    margin:0 8px 8px 0;
+    color: #ffffff;
+    background-color: #000000;
+    line-height: 30px;
+    border-radius: 50px;
+}
+.social-feed li:hover{
+    background-color: #ee802f;
+}
+
+@media screen and (min-width:768px){
+    .tagline p{
+        font-size:18px;
+        width: 30%;
+    }
+    .left-nav li{
+        line-height: 25px;
+        border-bottom: none;
+        border-left: 1px solid #b2b2b2;
+        padding:0 15px;
+        margin:20px 0;
+        float: left;
+        width: auto;
+    }
+    .left-nav li:first-child{
+        border-left: none;
+    }
+    .social-feed li{
+        float: left;
+        width: auto;
+        padding:0 8px;
+        margin:0 8px 8px 0;
+        color: #ffffff;
+        background-color: #000000;
+        line-height: 30px;
+        border-radius: 50px;
+    }
+}
+
+@media screen and (min-width:992px){
+    
+    .img-wrapper img{
+        margin:auto;
+    }
+    
+    .tagline p{
+        font-size: 16px;
+        color:#b2b2b2;
+        /* border-left:1px solid #b2b2b2; */
+        width: 100%;
+        margin: 0 auto;
+        line-height: 40px;
+        
+    }
+    .search input{
+        width: 60%;
+        height: 34px;
+        margin:auto;
+        border: none;
+    }
+    .search button{
+        height: 34px;
+        width: 20%;
+        background-color: #d54346;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-left: -5px;
+        padding:0 8px;
+    }
+
+    .left-nav li{
+        line-height: 25px;
+        border-bottom: none;
+        border-left: 1px solid #b2b2b2;
+        padding:0 20px;
+        margin:20px 0;
+        float: left;
+        width: auto;
+        font-size:12px;
+    }
+
+    .left-nav li{
+        line-height: 15px;
+        border-bottom: 2px solid #f5f5f5;
+    }
+}
