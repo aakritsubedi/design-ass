@@ -54,30 +54,8 @@
     display: none;
 }
 /* Banner */
-.banner-wrapper{
-    position: relative;
-}
-.banner-wrapper .banner{
-    /* width: 100vw; */
-    height: 50vh;
-    background-color: #b2b2b2;
-
-}
-.banner-wrapper .caption{
-    background-color: #000000;
-    opacity: 0.8;
-    color: #ffffff;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
 .caption p{
     line-height: 45px;
-    text-align: center;
-}
-.banner-wrapper ul li{
-    float: left;
-    width: auto;
     text-align: center;
 }
 /* Main Body */
