@@ -1,6 +1,9 @@
+body{
+    font-family: 'Georgia';
+    overflow-x: hidden;
+}
 .layout{
     width: 100%;
-    /* box-sizing: border-box; */
 }
 .wrapper{
     width: 100%;
@@ -39,16 +42,19 @@
 
 .header .navigation{
     text-align: center;
+    margin:0 auto;
+    margin-top:5px;
 }
 .navigation .left-nav{
     list-style: none;
     text-align: center;
     display: none;
+    
 }
 
 .navigation .social-feed{
     list-style: none;
-    margin: 10px auto;
+    margin: px auto;
     margin-bottom: 10px;
     text-align: center;
     display: none;
@@ -97,7 +103,7 @@
     text-align: center; 
 }
 .individual-info p{
-    line-height: 2;
+    line-height: 1.6;
     color: #999999;
 }
 .individual-info a{
@@ -150,12 +156,15 @@
 }
 .project-info-wrapper h3{
     line-height: 3;
+    font-size: 20px;
+    color: rgb(74, 74, 74);
 }
 .project-info-wrapper p{
-    line-height: 1.5;
+    line-height: 1.6;
     margin-top: 0px;
     color: #999999;
-    text-align: justify;
+    text-align: center;
+    font-size: 13px;
 }
 .project-info-wrapper button{
     line-height: 2.2;
@@ -168,9 +177,12 @@
     border: none;
     border-radius: 5px;
 }
+.project-info-wrapper button:hover{
+    background-color: #2ecc72;
+}
 /* Footer */
 .footer{
-    background-color: #d54346;   
+    background-color: #d54346;  
 }
 .footer .main-footer{
     line-height: 30px;
@@ -186,7 +198,7 @@
 .main-footer .company-info{
     width: 100%;
     text-align: center;
-    display: none;
+    display: none;  
 }
 .footer .imp-footer{
     display: none;
@@ -201,7 +213,8 @@
         list-style: none;
         text-align: center;
         display: block;
-        float: left;
+        /* float: left; */
+        margin:0 auto;
         margin-top:5px;
     }
     
@@ -260,6 +273,8 @@
         padding:10px;
         box-sizing: border-box;
         color: white;
+        font-size:13px;
+        line-height: 1.6;
     }
     .about h3{
         line-height: 40px;
@@ -267,6 +282,11 @@
     .about a{
         color: black;
         text-decoration: none;
+    }
+    .about a:hover{
+        color: #ffffff;
+        text-decoration: underline;
+        margin-top:5px;
     }
     .about  .about-us{
        
@@ -285,12 +305,14 @@
     }
     .link ul li a{
         text-decoration: none;
-        color: white;
+        color: black;
+        font-size: 12px;
     }
     .link ul li{
         line-height: 30px;
         list-style: none;
         border-bottom: 1px solid #d85255;
+        font-size: 13px;
     }
     .link ul li::before{
         content: ">>";
@@ -356,8 +378,10 @@
         box-sizing: border-box;
     }
     .our-work .work-title{
-        width: 40%;
+        width: 35%;
         float: left;
+        font-size: 22px;
+        text-align: right;
         /* background-color: #000000; */
     }
     .break::after{
@@ -378,6 +402,7 @@
     }
     .imp-footer p{
         line-height: 23px;
+        margin-bottom: 5px;
     }
     .imp-footer .about-link{
         width: 70%;
@@ -396,6 +421,12 @@
     .about a{
         color: black;
         text-decoration: none;
+        margin-top:5px;
+    }
+    .about a:hover{
+        color: #ffffff;
+        text-decoration: underline;
+        margin-top:5px;
     }
     .about  .about-us{
        
@@ -419,7 +450,7 @@
         float: right;
         box-sizing: border-box;
         color: white;
-        
+        font-size:13px;
     }
     .newsletter h3{
         line-height: 50px;  
@@ -440,12 +471,19 @@
         text-align: center;
         text-transform: uppercase;
     }
+    .submit-btn:hover{
+        background-color: #2ecc72;
+    }
+    .newsletter span{
+        line-height: 22px;
+    }
     .footer .main-footer{
         line-height: 30px;
         color: #ffffff;
         padding:15px 0;
         border-top: 1px solid #db6063;
         width: 100%;
+        font-size: 13px;
     }
     .main-footer .copyright{
         width: 70%;

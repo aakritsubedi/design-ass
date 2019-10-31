@@ -3,10 +3,9 @@ showSlides();
 
 
 function showSlides() {
-    var i;
     var slides = document.getElementsByClassName("mySlides");
     //console.log(slides);
-    for (i = 0; i < slides.length; i++) {
+    for (var i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
     }
     slideIndex++;

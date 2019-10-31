@@ -20,7 +20,9 @@
                <div class="logo-search clearfix">
                    <div class="logo clearfix">
                         <div class="img-wrapper">
-                            <img src="images/layout/logo.png" alt="thePoint">
+                            <a href="#">
+                                <img src="images/layout/logo.png" alt="thePoint">
+                            </a>
                         </div>
                        <div class="tagline">
                             <p>Free PSD Website Template</p>
@@ -34,9 +36,9 @@
                    </div>
                </div>
                <div class="navigation clearfix">
-                   <a href="#" class="bars"><span class="fa fa-bars"></span></a>
+                   <a href="#" class="bars" id="burger"><span class="fa fa-bars"></span></a>
                    
-                   <ul class="left-nav">
+                   <ul class="left-nav" id="left-nav">
                        <li><a href="#">Home Page <span>test text here</span></a> </li>
                        <li><a href="#">Style Demo <span>test text here</span></a> </li>
                        <li><a href="#">Full Width <span>test text here</span></a> </li>
@@ -59,26 +61,21 @@
         <div class="slideshow-container">
 
                 <div class="mySlides">
-                  <div class="numbertext">1 / 4</div>
-                  <img src="images/carousel/1.jpg">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="images/carousel/1.jpg" alt="Pic 1">
                   <div class="caption">We use various technlogy to build your product.</div>
                 </div>
                 
                 <div class="mySlides">
-                  <div class="numbertext">2 / 4</div>
-                  <img src="images/carousel/2.jpg">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="images/carousel/2.jpg" alt="Pic 2">
                   <div class="caption">We deliver on time. Customer satisfaction is our goal.</div>
                 </div>
                 
                 <div class="mySlides">
-                  <div class="numbertext">3 / 4</div>
-                  <img src="images/carousel/3.jpg">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="images/carousel/3.jpg" alt="Pic 3">
                   <div class="caption">Engineer in feild to build your product.</div>
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">4 / 4</div>
-                    <img src="images/carousel/4.jpeg">
-                    <div class="caption">We listen to your feedback.</div>
                 </div>
         </div>
         <div class="main-body">
@@ -148,7 +145,7 @@
                         <div class="project-info">
                             <div class="project-tile">
                                 <div class="project-img-wrapper">
-                                    <img src="images/engineering notes.jpg" alt="project">
+                                    <img src="images/engineering_notes.jpg" alt="project">
                                 </div>
                                 <div class="project-info-wrapper">
                                     <h3>Engineering Notes</h3>
@@ -236,6 +233,9 @@
             </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
+    <script src="js/4imgSlider.js"></script>
 </body>
-<script src="js/4imgSlider.js"></script>
+
+
 </html>
